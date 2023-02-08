@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <h2>Realize seu cadastro</h2>
+    <form action="criação de dados" method="get" autocomplete="on"></form>
+
+    <div>
+      <label for="pnome">Primeiro nome: </label>
+      <input type="text" name="pnome" id="pnome" /><br />
+    </div>
+
+    <br />
+
+    <div>
+      <label for="snome">Sobrenome: </label>
+      <input type="text" name="snome" id="snome" /><br />
+    </div>
+
+    <br />
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" /> -
+      <label for="snh">Crie uma senha:</label>
+      <input type="password" name="snh" id="snh" /><br />
+    </div>
+
+    <br />
+
+    <div>
+      <label for="data">Insira sua data de nascimento:</label>
+      <input type="date" id="data" name="data" /> -
+      <label for="foto">Foto:</label>
+      <input type="file" name="foto" id="foto" />
+    </div>
+
+    <br />
+
+    <div>
+      <label for="nac">Nacionalidade:</label>
+      <select name="nac" id="nac">
+        <option value="Brasileiro">Brasileiro</option>
+        <option value="Argentino">Argentino</option>
+        <option value="Chileno">Chileno</option>
+        <option value="Uruguaio">Uruguaio</option>
+        <option value="Outro...">Outro...</option>
+      </select>
+
+      -
+
+      <label for="gen">Insira seu gênero:</label>
+      <input type="radio" id="fen" name="gen" value="F" />
+      <label for="fen">F</label>
+      <input type="radio" id="masc" name="gen" value="M" />
+      <label for="masc">M</label>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="qual">Insira suas qualidades:</label><br />
+      <input type="checkbox" id="q1" name="q1" value="Inteligência" />
+      <label for="q1">Inteligência</label>
+      |
+      <input type="checkbox" id="q2" name="q2" value="Educação" />
+      <label for="q2">Educação</label>
+      |
+      <input type="checkbox" id="q3" name="q3" value="Resiliência" />
+      <label for="q3">Resiliência</label>
+      |
+    </div>
+
+    <br />
+
+    <div>
+      <textarea
+        name="desc"
+        id="desc"
+        cols="30"
+        rows="10"
+        placeholder="Escreva um pouco mais sobre você"
+      ></textarea>
+    </div>
+
+    <br />
+
+    <div><input type="submit" value="Enviar" /><br /></div>
+  </body>
+</html>
